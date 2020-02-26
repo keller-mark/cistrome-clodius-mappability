@@ -1,4 +1,4 @@
-name: clodius-multivec-env
+name: clodius-env
 channels:
   - conda-forge
   - bioconda
