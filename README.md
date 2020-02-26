@@ -12,13 +12,13 @@ snakemake --snakefile Boyle2018.smk
 snakemake --snakefile Karimzadeh2018.smk
 ```
 
-Load the tilesets into higlass-server, assuming the directory looks like this:
+Load the tilesets into higlass-server, assuming your directories look like this:
 
 ```
 parent_dir/
     higlass-server/
         manage.py
-    cistrome-clodius-mappability/
+    cistrome-clodius-mappability/ <-- this repo
         Boyle2018.smk
         Karimzadeh2018.smk
 ```
